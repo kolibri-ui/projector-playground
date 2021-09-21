@@ -1,8 +1,7 @@
 export {linkProjector}
 
 /**
- * /**
- *
+ * Creates a <a> Element
  * @param {string} linkText - Describes what the text of the link should be
  * @param {string} href - Describes the location where the link is pointing. If empty, the attribute gets not created
  * @param {string} classlist - Describes class list for element

@@ -1,4 +1,4 @@
-import {playground} from "../playground.js";
+import {playground} from "../projector/playground.js";
 import {ObservableList} from "../model/observable.js";
 
 export {Controller, PlaygroundView}
