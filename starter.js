@@ -1,8 +1,8 @@
-import {Controller, TestView} from "./controller.js";
-import {loginService} from "./loginService.js";
+import {Controller, PlaygroundView} from "./controller/controller.js";
+import {playgroundService} from "./service/service.js";
 
-const service = loginService()
+const service = playgroundService()
 const controller = Controller(service)
 
-TestView(controller, document.getElementById('linktest'))
-controller.addLogin()
+PlaygroundView(controller, document.getElementById('linktest'))
+controller.addPlayground()
